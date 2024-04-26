@@ -1,0 +1,26 @@
+.DS_Store
+# .env.development has secrets populated from 1password by dev-setup.sh
+.env.development
+.env.local
+.next/
+.nyc_output/
+node_modules/
+dist/
+data/
+*.tsbuildinfo
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/.vscode/settings.json
+/workspaces/**/dist
+coverage-ts
+.eslintcache
+.type-coverage
+.parcel-cache
+.browserslistrc.*
+.idea
+
+
+# Playwright
+test/e2e-results
+.tap

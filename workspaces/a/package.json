@@ -1,0 +1,15 @@
+{
+  "name": "@bret/a",
+  "version": "0.0.0",
+  "private": "true",
+  "main": "dist/a.js",
+  "exports": {
+    ".": "./dist/a.js",
+    "./*": "./dist/*"
+  },
+  "scripts": {},
+  "license": "UNLICENCED",
+  "dependencies": {
+    "@bret/b": "file:../b"
+  }
+}

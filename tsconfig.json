@@ -1,0 +1,33 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "declarationMap": false,
+    "noEmit": false,
+    "jsxImportSource": "react",
+    "jsx": "preserve",
+    "outDir": "dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.json",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "dist"
+  ],
+  "references": [
+    {
+      "path": "workspaces/a"
+    },
+    {
+      "path": "workspaces/b"
+    },
+    {
+      "path": "workspaces/c"
+    }
+  ]
+}
