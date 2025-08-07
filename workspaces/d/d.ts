@@ -1,13 +1,13 @@
 import { aNested } from '@bret/a/a-sub/index.js'
 import { a } from '@bret/a/a.js'
 import { b } from '@bret/b/b.js'
-import { e } from '@bret/e'
 
 
-export const c = {
+export const d = {
   a,
   aNested,
   b,
-  c: 'c',
-  e
+  c: 'c'
 }
+
+console.log({ d })

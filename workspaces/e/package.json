@@ -1,0 +1,12 @@
+{
+  "name": "@bret/e",
+  "version": "0.0.0",
+  "private": "true",
+  "main": "e.ts",
+  "type": "module",
+  "scripts": {
+    "test": "tsc"
+  },
+  "license": "UNLICENCED",
+  "dependencies": {}
+}

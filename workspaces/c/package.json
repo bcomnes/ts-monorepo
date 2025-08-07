@@ -10,7 +10,8 @@
   "scripts": {},
   "license": "UNLICENCED",
   "dependencies": {
-    "@bret/a": "file:../a",
-    "@bret/b": "file:../b"
+    "@bret/a": "workspace:*",
+    "@bret/b": "workspace:*",
+    "@bret/e": "workspace:*"
   }
 }

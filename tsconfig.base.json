@@ -9,9 +9,9 @@
     "incremental": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["es2022"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "lib": ["es2024", "dom"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noEmit": false,
     "noEmitOnError": true,
     "resolveJsonModule": true,
@@ -19,6 +19,6 @@
     "sourceMap": true,
     "strict": false,
     "strictNullChecks": false,
-    "target": "es2022"
+    "target": "esnext"
   }
 }

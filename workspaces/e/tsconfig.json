@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "**/*.js",
+    "node_modules",
+    "coverage",
+    ".github"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@bret/d",
+  "version": "0.0.0",
+  "private": "true",
+  "main": "d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "tsc"
+  },
+  "license": "UNLICENCED",
+  "dependencies": {
+    "@bret/a": "workspace:*",
+    "@bret/b": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

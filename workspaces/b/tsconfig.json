@@ -4,8 +4,6 @@
     "outDir": "dist",
     "rootDir": "src",
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
-    "module": "Node16",
-    "moduleResolution": "node16"
   },
   "include": [
     "src/**/*.js",

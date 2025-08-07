@@ -7,22 +7,25 @@
   },
   "scripts": {
     "build": "tsc --build",
+    "test": "pnpm -r test",
     "clean-dist": "rm -rf dist workspaces/*/dist",
     "delete-node_modules": "rm -rf node_modules workspaces/*/node_modules",
     "lint:project-references": "workspaces-to-typescript-project-references --includesRoot --check"
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "@bret/a": "file:workspaces/a",
-    "@bret/b": "file:workspaces/b",
-    "@bret/c": "file:workspaces/c"
+    "@bret/a": "workspace:*",
+    "@bret/b": "workspace:*",
+    "@bret/c": "workspace:*",
+    "@bret/d": "workspace:*",
+    "@bret/e": "workspace:*"
   },
   "workspaces": [
     "workspaces/*"
   ],
   "devDependencies": {
     "@monorepo-utils/workspaces-to-typescript-project-references": "^2.10.4",
-    "npm-run-all2": "^6.1.2",
-    "typescript": "~5.3.3"
+    "npm-run-all2": "^8.0.0",
+    "typescript": "catalog:"
   }
 }
